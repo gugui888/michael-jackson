@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <title>Michael Jackson</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header class="p-5">
+    <nav class="container d-flex justify-content-between align-items-center">
+        <div class="row justify-content-center align-items-center text-center">
+    <div class="col-md-4">
+        <img src="img/michael jackson.png" class="rounded-pill img-fluid" width="273" height="331" loading="lazy" alt="Michael Jackson">
+    </div>
+    <div class="col-md-6">
+        <h2>Michael Jackson</h2>
+        <p class="p-2"></p>
+    </div>
+</div>
+
+        <ul class="nav mt-5">
+            <li class="nav-item"><a class="nav-link" href="#inicio">Início</a></li>
+            <li class="nav-item"><a class="nav-link" href="#galeria">Galeria</a></li>
+            <a href="#tropicalia" class="btn btn-primary btn-lg botao-inicio fw-semibold">Quero conhecer!</a>
+        </ul>
+        <div id="acessibilidade" class="menu-acessibilidade">
+            <button id="botao-acessibilidade" class="btn btn-primary fw-bold rotacao-botao" aria-expanded="false" aria-controls="opcoes-acessibilidade" aria-label="Menu de acessibilidade">Acessibilidade</button>
+            <div id="opcoes-acessibilidade" class="opcoes-acessibilidade" style="display: none;">
+                <button id="aumentar-fonte" class="btn btn-primary fw-bold" aria-label="Aumentar o tamanho da fonte">A+</button>
+                <button id="diminuir-fonte" class="btn btn-primary fw-bold" aria-label="Diminuir o tamanho da fonte">A-</button>
+                <button id="alterna-contraste" class="btn btn-primary fw-bold" aria-label="Alternar o contraste de cores"><i class="bi bi-shadows"></i></button>
+            </div>
+        </div>
+    </nav>
+</header>
+
+
+
+    <main class="container my-5">
+
+        <section id="inicio" class="my-5">
+            <div class="inicio-fundo d-flex justify-content-between align-items-center">
+                <div class="esquerda-conteudo">
+                    <h1 class="display-4 text-white fst-italic fw-bold">Boas-vindas </h1>
+                    <img src="img/sla.png" class="mb-3" width="563"
+                        height="278" loading="lazy">
+                </div>
+              </div>
+        </section>
+
+        <section id="tropicalia" class="my-5 pt-6 secao-tropicalia" tabindex="0" aria-label="Seção explicativa sobre a tropicália">
+            <div class="container d-flex align-items-center ">
+                <div class="col-4 d-flex justify-content-center ">
+                    <img src="img/Screenshot 2025-08-20 08.10.12.png" class="rounded-pill" width="273" height="331" loading="lazy">
+                </div>
+                <div class="col-5">
+                    <h2>Quem  foi Michael Jackson</h2>
+                    <p class="p-2">Michael Joseph Jackson (Gary, 29 de agosto de 1958 – Los Angeles, 25 de junho de 2009) foi um cantor, compositor, dançarino e filantropo estadunidense. Apelidado de "Rei do Pop", ele é considerado uma das figuras culturais mais significantes do século XX e um dos maiores artistas da história da música. Ao longo de uma carreira de quatro décadas, suas conquistas musicais ao redor do mundo e sua vida pessoal publicizada fizeram dele uma figura global na cultura popular. Por meio da música, dança e moda, ele proliferou a performance visual para cantores de música pop, e popularizou movimentos da dança de rua, incluindo o moonwalk (que ele nomeou), o robô e a inclinada anti-gravidade. Jackson possui uma extensa legião de fãs, que inclui imitadores de todo o mundo.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="galeria" tabindex="0" aria-label="Seção de galeria de imagens">
+            <h2 class="text-center pt-5">Galeria</h2>
+            <div class="container p-3 mt-3 fundo-galeria ">
+
+                <div class="row justify-content-md-center">
+                    <div class="col-md-4">
+                        
+                    </div>
+                </div>
+                <div class="row mt-4  justify-content-md-center">
+                    <div class="col-md-4">
+                        <img src="img/Screenshot 2025-08-20 08.09.36.png" class="img-fluid rounded-5" loading="lazy">
+                    </div>
+                    <div class="col-md-4">
+                        <img src="img/Screenshot 2025-08-20 08.07.47.png"
+                            class="img-fluid rounded-5" loading="lazy">
+                    </div>
+                </div>
+             </div>
+        </section>
+
+        </section>
+    </main>
+    <footer class="text-center p-3 fst-italic">
+        <p1>Desenvolvido por Guilherme Mingardo</p1>
+    </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/scrollReveal.js/4.0.9/scrollreveal.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
